@@ -14,7 +14,7 @@ namespace ConsoleApplication22
             raf.Add(new Kutuphane("Nutuk", "Ataturk", raf.Current));
             raf.Add(new Kutuphane("Araba Sevdası", "Mehmet Arif", raf.Current));
             raf.ArayaAdd(new Kutuphane("Eylul", "Polat Alemdar", raf.Current), 3);
-           // raf.AradanRemove(3);
+           // raf.AradanSil(3);
             //raf.Show();
             //raf.KitapBul(3);
             //Console.WriteLine(raf.Counts());
