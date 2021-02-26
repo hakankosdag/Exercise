@@ -84,7 +84,7 @@ namespace ConsoleApplication22
                 }
                 return count;
             }
-            public void ArayaAdd(Kutuphane ykitap, int ekle)
+            public void ArayaEkle(Kutuphane ykitap, int ekle)
             {
                 Current = Head;
                 for (int i = 0; i < ekle; i++)
@@ -102,7 +102,7 @@ namespace ConsoleApplication22
                 Current = Head;
 
             }
-            public void AradanRemove(int sil)
+            public void AradanSil(int sil)
             {
                 Current = Head;
                 for (int i = 0; i < sil; i++)
